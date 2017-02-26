@@ -1,0 +1,84 @@
+
+
+header
+{
+	width: auto;
+	background-color: Gainsboro;
+
+}
+
+.interne
+{	
+	margin: 0px auto;
+	width: 100%;
+}
+nav > ul
+{
+	margin: 10px 0 0 0;
+	padding: 0px;
+
+
+}
+nav > ul > li 
+{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: CadetBlue;
+
+
+}
+
+article
+{
+	margin-right: 10px;
+	clear: both;
+}
+
+
+#content
+{
+	margin: 0px auto;
+	width: 80%;
+	background-color: AntiqueWhite;
+	overflow: auto;
+
+
+}
+
+.imageActu
+{
+    float: left;
+	margin: 10px;
+	max-width: 100%;
+
+	
+}
+
+@media only screen and (max-width: 600px)  {
+
+	.imageActu
+	{
+	    display: block;
+		margin: 10px;
+		max-width: 100%;
+		float: none;
+
+
+		
+	}
+	#content
+{
+	margin: 0px auto;
+	width: 100%;
+	background-color: AntiqueWhite;
+	overflow: auto;
+
+
+}
+}
+
+
